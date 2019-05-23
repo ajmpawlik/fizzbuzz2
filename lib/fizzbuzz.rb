@@ -1,8 +1,6 @@
 class Integer
   def fizzbuzz
-    if self == 0
-      return 0
-    end
+    return 0 if self == 0
 
     if self % 3 == 0 && self % 5 != 0
       "fizz"
